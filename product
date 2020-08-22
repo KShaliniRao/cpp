@@ -1,0 +1,27 @@
+//cpp
+//C++ programs 
+// program to find the product
+
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    float a,b,prod;
+
+    cout<<"Enter two numbers:";
+    cin>>a>>b;
+    prod=a*b;
+
+    cout<<"Product="<<prod;
+
+   return 0;
+}
+
+
+OUTPUT=>
+
+Enter two numbers:3.4
+5.5
+Product=18.7
